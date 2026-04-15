@@ -1,0 +1,2319 @@
+{
+  "root": "/project1/mqtt_system",
+  "operators": [
+    {
+      "name": "mqtt_system",
+      "path": "/project1/mqtt_system",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "text1",
+      "path": "/project1/mqtt_system/text1",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "script1",
+      "path": "/project1/mqtt_system/script1",
+      "type": "scriptDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Valuea": 0.0,
+        "Valueb": 0.0
+      }
+    },
+    {
+      "name": "listeners",
+      "path": "/project1/mqtt_system/listeners",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "ui",
+      "path": "/project1/mqtt_system/listeners/ui",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "button_05_1",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Active": true,
+        "Devicetype": "button",
+        "Deviceid": 5,
+        "Controlid": 1,
+        "Autoregister": false,
+        "Register": false,
+        "Unregister": false,
+        "Lastcommand": "remote_button_double_press",
+        "Lasttimestamp": "2026-04-09T17:11:00.321Z"
+      }
+    },
+    {
+      "name": "text1",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/text1",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "outputs",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "default",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/default",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/default/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "release",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/release",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/release/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "long_press",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/long_press",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/long_press/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "short_press",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/short_press",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/short_press/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "double_press",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/double_press",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/outputs/double_press/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_map",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/command_map",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "event_state",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/event_state",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "custom_logic",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/custom_logic",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_ext",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/listener_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "par_callbacks",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/par_callbacks",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_router_ext",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/command_router_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_callbacks",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/listener_callbacks",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listeners_callbacks2",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/listeners_callbacks2",
+      "type": "executeDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listeners_callbacks3",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_1/listeners_callbacks3",
+      "type": "datexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "button_05_2",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Active": false,
+        "Devicetype": "",
+        "Deviceid": 0,
+        "Controlid": 0,
+        "Autoregister": false,
+        "Register": false,
+        "Unregister": false,
+        "Lastcommand": "-",
+        "Lasttimestamp": "-"
+      }
+    },
+    {
+      "name": "outputs",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/outputs",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_map",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/command_map",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "event_state",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/event_state",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "custom_logic",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/custom_logic",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_ext",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/listener_ext",
+      "type": "scriptDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Valuea": 0.0,
+        "Valueb": 0.0
+      }
+    },
+    {
+      "name": "par_callbacks",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/par_callbacks",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "script1_callbacks",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/script1_callbacks",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_router_ext",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/command_router_ext",
+      "type": "scriptDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Valuea": 0.0,
+        "Valueb": 0.0
+      }
+    },
+    {
+      "name": "script1_callbacks1",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/script1_callbacks1",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listeners_callbacks",
+      "path": "/project1/mqtt_system/listeners/ui/button_05_2/listeners_callbacks",
+      "type": "executeDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "audio",
+      "path": "/project1/mqtt_system/listeners/audio",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "button_05_1_audio",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Active": true,
+        "Devicetype": "button",
+        "Deviceid": 5,
+        "Controlid": 1,
+        "Autoregister": false,
+        "Register": false,
+        "Unregister": false,
+        "Lastcommand": "remote_button_double_press",
+        "Lasttimestamp": "2026-04-09T17:11:00.321Z"
+      }
+    },
+    {
+      "name": "text1",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/text1",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "outputs",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/outputs",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "default",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/outputs/default",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/outputs/default/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "short_press",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/outputs/short_press",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/outputs/short_press/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_map",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/command_map",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "event_state",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/event_state",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "custom_logic",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/custom_logic",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_ext",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/listener_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "par_callbacks",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/par_callbacks",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_router_ext",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/command_router_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_callbacks",
+      "path": "/project1/mqtt_system/listeners/audio/button_05_1_audio/listener_callbacks",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "sensors",
+      "path": "/project1/mqtt_system/listeners/sensors",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "motion_01",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Active": false,
+        "Devicetype": "",
+        "Deviceid": 0,
+        "Controlid": 0,
+        "Autoregister": false,
+        "Register": false,
+        "Unregister": false,
+        "Lastcommand": "-",
+        "Lasttimestamp": "-"
+      }
+    },
+    {
+      "name": "outputs",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/outputs",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_map",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/command_map",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "event_state",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/event_state",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "custom_logic",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/custom_logic",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_ext",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/listener_ext",
+      "type": "scriptDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Valuea": 0.0,
+        "Valueb": 0.0
+      }
+    },
+    {
+      "name": "par_callbacks",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/par_callbacks",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "script1_callbacks",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/script1_callbacks",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_router_ext",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/command_router_ext",
+      "type": "scriptDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Valuea": 0.0,
+        "Valueb": 0.0
+      }
+    },
+    {
+      "name": "script1_callbacks1",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/script1_callbacks1",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listeners_callbacks",
+      "path": "/project1/mqtt_system/listeners/sensors/motion_01/listeners_callbacks",
+      "type": "executeDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "sensor_02_1",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Active": false,
+        "Devicetype": "",
+        "Deviceid": 0,
+        "Controlid": 0,
+        "Autoregister": false,
+        "Register": false,
+        "Unregister": false,
+        "Lastcommand": "-",
+        "Lasttimestamp": "-"
+      }
+    },
+    {
+      "name": "outputs",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/outputs",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_map",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/command_map",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "event_state",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/event_state",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "custom_logic",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/custom_logic",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_ext",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/listener_ext",
+      "type": "scriptDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Valuea": 0.0,
+        "Valueb": 0.0
+      }
+    },
+    {
+      "name": "par_callbacks",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/par_callbacks",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "script1_callbacks",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/script1_callbacks",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_router_ext",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/command_router_ext",
+      "type": "scriptDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Valuea": 0.0,
+        "Valueb": 0.0
+      }
+    },
+    {
+      "name": "script1_callbacks1",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/script1_callbacks1",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listeners_callbacks",
+      "path": "/project1/mqtt_system/listeners/sensors/sensor_02_1/listeners_callbacks",
+      "type": "executeDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "mqtt_manager",
+      "path": "/project1/mqtt_system/mqtt_manager",
+      "type": "containerCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "text1",
+      "path": "/project1/mqtt_system/mqtt_manager/text1",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "table1",
+      "path": "/project1/mqtt_system/mqtt_manager/table1",
+      "type": "tableCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "in1",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/in1",
+      "type": "inDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/table1/default"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/table1/cell_attributes",
+        "/project1/mqtt_system/mqtt_manager/table1/labels"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "cell",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/cell",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "table",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/table",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "labels",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/labels",
+      "type": "nullDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/table1/in1"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "default",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/default",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/table1/in1"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "cell_select",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/cell_select",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "cell_default",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/cell_default",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "cell_rollover",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/cell_rollover",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "table_default",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/table_default",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "cell_attributes",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/cell_attributes",
+      "type": "evaluateDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/table1/in1"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "table_attributes",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/table_attributes",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "cell_selectrollover",
+      "path": "/project1/mqtt_system/mqtt_manager/table1/cell_selectrollover",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "values",
+      "path": "/project1/mqtt_system/mqtt_manager/values",
+      "type": "datexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "outputs",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/out_topic",
+        "/project1/mqtt_system/mqtt_manager/out_payload",
+        "/project1/mqtt_system/mqtt_manager/out_timestamp",
+        "/project1/mqtt_system/mqtt_manager/out_pulse"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "text1",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/text1",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out_pulse",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/out_pulse",
+      "type": "outCHOP",
+      "family": "CHOP",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/message_pulse"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/out_pulse"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "out_topic",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/out_topic",
+      "type": "outDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/select_topic"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/out_topic"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "new_message",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/new_message",
+      "type": "datexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out_message",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/out_message",
+      "type": "outDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/build_pydata"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out_payload",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/out_payload",
+      "type": "outDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/select_payload"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/out_payload"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "table_watch",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/table_watch",
+      "type": "datexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "build_pydata",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/build_pydata",
+      "type": "scriptDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/message_table"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/out_message"
+      ],
+      "customPars": {
+        "Valuea": 0.0,
+        "Valueb": 0.0
+      }
+    },
+    {
+      "name": "select_topic",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/select_topic",
+      "type": "selectDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/message_table"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/out_topic"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "message_pulse",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/message_pulse",
+      "type": "constantCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/out_pulse"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "message_table",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/message_table",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/select_timestamp",
+        "/project1/mqtt_system/mqtt_manager/outputs/select_payload",
+        "/project1/mqtt_system/mqtt_manager/outputs/select_topic",
+        "/project1/mqtt_system/mqtt_manager/outputs/build_pydata"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "out_timestamp",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/out_timestamp",
+      "type": "outDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/select_timestamp"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/out_timestamp"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "select_payload",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/select_payload",
+      "type": "selectDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/message_table"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/out_payload"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "select_timestamp",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/select_timestamp",
+      "type": "selectDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/message_table"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/out_timestamp"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "script1_callbacks",
+      "path": "/project1/mqtt_system/mqtt_manager/outputs/script1_callbacks",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "select1",
+      "path": "/project1/mqtt_system/mqtt_manager/select1",
+      "type": "selectDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "mqtt_log",
+      "path": "/project1/mqtt_system/mqtt_manager/mqtt_log",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/values_flat"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "table_ui",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui",
+      "type": "tableCOMP",
+      "family": "COMP",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/values_flat"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "in1",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/in1",
+      "type": "inDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/table_ui/default"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/table_ui/cell_attributes",
+        "/project1/mqtt_system/mqtt_manager/table_ui/labels"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "cell",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/cell",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "table",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/table",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "labels",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/labels",
+      "type": "nullDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/table_ui/in1"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "default",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/default",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/table_ui/in1"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "cell_select",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/cell_select",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "cell_default",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/cell_default",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "cell_rollover",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/cell_rollover",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "table_default",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/table_default",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "cell_attributes",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/cell_attributes",
+      "type": "evaluateDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/table_ui/in1"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "table_attributes",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/table_attributes",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "cell_selectrollover",
+      "path": "/project1/mqtt_system/mqtt_manager/table_ui/cell_selectrollover",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "error_log",
+      "path": "/project1/mqtt_system/mqtt_manager/error_log",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "log_utils",
+      "path": "/project1/mqtt_system/mqtt_manager/log_utils",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out_pulse",
+      "path": "/project1/mqtt_system/mqtt_manager/out_pulse",
+      "type": "outCHOP",
+      "family": "CHOP",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/out_pulse"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out_topic",
+      "path": "/project1/mqtt_system/mqtt_manager/out_topic",
+      "type": "outDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/out_topic"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "mqtt_client",
+      "path": "/project1/mqtt_system/mqtt_manager/mqtt_client",
+      "type": "mqttclientDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out_payload",
+      "path": "/project1/mqtt_system/mqtt_manager/out_payload",
+      "type": "outDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/out_payload"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "row_attribs",
+      "path": "/project1/mqtt_system/mqtt_manager/row_attribs",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "values_flat",
+      "path": "/project1/mqtt_system/mqtt_manager/values_flat",
+      "type": "scriptDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/mqtt_log"
+      ],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/table_ui"
+      ],
+      "customPars": {
+        "Valuea": 0.0,
+        "Valueb": 0.0
+      }
+    },
+    {
+      "name": "clear_button",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button",
+      "type": "containerCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Target": "/project1/mqtt_system/mqtt_manager/mqtt_log",
+        "Pulse": false
+      }
+    },
+    {
+      "name": "panelexec1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button/panelexec1",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "clear_button",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button/clear_button",
+      "type": "buttonCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button/clear_button/out1",
+      "type": "outCHOP",
+      "family": "CHOP",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/clear_button/clear_button/par1"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "par1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button/clear_button/par1",
+      "type": "parameterCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/clear_button/clear_button/out1"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "text",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button/clear_button/text",
+      "type": "textCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "parexec1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button/clear_button/parexec1",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "panelexec1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button/clear_button/panelexec1",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "clear_button1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button1",
+      "type": "containerCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Target": "/project1/mqtt_system/mqtt_manager/error_log",
+        "Pulse": false
+      }
+    },
+    {
+      "name": "panelexec1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button1/panelexec1",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "clear_button",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button1/clear_button",
+      "type": "buttonCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button1/clear_button/out1",
+      "type": "outCHOP",
+      "family": "CHOP",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/clear_button1/clear_button/par1"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "par1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button1/clear_button/par1",
+      "type": "parameterCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_manager/clear_button1/clear_button/out1"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "text",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button1/clear_button/text",
+      "type": "textCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "parexec1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button1/clear_button/parexec1",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "panelexec1",
+      "path": "/project1/mqtt_system/mqtt_manager/clear_button1/clear_button/panelexec1",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out_timestamp",
+      "path": "/project1/mqtt_system/mqtt_manager/out_timestamp",
+      "type": "outDAT",
+      "family": "DAT",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_manager/outputs/out_timestamp"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "route_message",
+      "path": "/project1/mqtt_system/mqtt_manager/route_message",
+      "type": "datexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "table_attribs",
+      "path": "/project1/mqtt_system/mqtt_manager/table_attribs",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "mqtt_manager_ext",
+      "path": "/project1/mqtt_system/mqtt_manager/mqtt_manager_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "script1_callbacks",
+      "path": "/project1/mqtt_system/mqtt_manager/script1_callbacks",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "select_message_table",
+      "path": "/project1/mqtt_system/mqtt_manager/select_message_table",
+      "type": "selectDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "mqtt_client_callbacks",
+      "path": "/project1/mqtt_system/mqtt_manager/mqtt_client_callbacks",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "network_json",
+      "path": "/project1/mqtt_system/network_json",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "export_structure",
+      "path": "/project1/mqtt_system/export_structure",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "mqtt_event_system",
+      "path": "/project1/mqtt_system/mqtt_event_system",
+      "type": "containerCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "logs",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "text1",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/text1",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "errors",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/errors",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "all_events",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/all_events",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "panelexec2",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/panelexec2",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "clear_tables1",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/clear_tables1",
+      "type": "buttonCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out1",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/clear_tables1/out1",
+      "type": "outCHOP",
+      "family": "CHOP",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_event_system/logs/clear_tables1/par1"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "par1",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/clear_tables1/par1",
+      "type": "parameterCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_event_system/logs/clear_tables1/out1"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "text",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/clear_tables1/text",
+      "type": "textCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "parexec1",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/clear_tables1/parexec1",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "panelexec1",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/clear_tables1/panelexec1",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "unmatched_events",
+      "path": "/project1/mqtt_system/mqtt_event_system/logs/unmatched_events",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "router",
+      "path": "/project1/mqtt_system/mqtt_event_system/router",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "errors",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/errors",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "handlers",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "light_handler",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/light_handler",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "light_handler_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/light_handler/light_handler_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "button_handler",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/button_handler",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "button_handler_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/button_handler/button_handler_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "output_handler",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/output_handler",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "output_handler_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/output_handler/output_handler_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "rotary_handler",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/rotary_handler",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "rotary_handler_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/rotary_handler/rotary_handler_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "sensor_handler",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/sensor_handler",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "sensor_handler_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/sensor_handler/sensor_handler_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "default_handler",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/default_handler",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "default_handler_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/handlers/default_handler/default_handler_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "all_events",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/all_events",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "last_event",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/last_event",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "last_topic",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/last_topic",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "router_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/router_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "last_payload",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/last_payload",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "routes_table",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/routes_table",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "output_handler",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/output_handler",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "button_handler_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/output_handler/button_handler_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "unmatched_events",
+      "path": "/project1/mqtt_system/mqtt_event_system/router/unmatched_events",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "registry",
+      "path": "/project1/mqtt_system/mqtt_event_system/registry",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "panelexec2",
+      "path": "/project1/mqtt_system/mqtt_event_system/registry/panelexec2",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "clear_tables1",
+      "path": "/project1/mqtt_system/mqtt_event_system/registry/clear_tables1",
+      "type": "buttonCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out1",
+      "path": "/project1/mqtt_system/mqtt_event_system/registry/clear_tables1/out1",
+      "type": "outCHOP",
+      "family": "CHOP",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_event_system/registry/clear_tables1/par1"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "par1",
+      "path": "/project1/mqtt_system/mqtt_event_system/registry/clear_tables1/par1",
+      "type": "parameterCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_event_system/registry/clear_tables1/out1"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "text",
+      "path": "/project1/mqtt_system/mqtt_event_system/registry/clear_tables1/text",
+      "type": "textCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "parexec1",
+      "path": "/project1/mqtt_system/mqtt_event_system/registry/clear_tables1/parexec1",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "panelexec1",
+      "path": "/project1/mqtt_system/mqtt_event_system/registry/clear_tables1/panelexec1",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_registry",
+      "path": "/project1/mqtt_system/mqtt_event_system/registry/listener_registry",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "templatesi",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_template",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Active": true,
+        "Devicetype": "button",
+        "Deviceid": 5,
+        "Controlid": 1,
+        "Autoregister": false,
+        "Register": false,
+        "Unregister": false,
+        "Lastcommand": "remote_button_double_press",
+        "Lasttimestamp": "2026-04-09T17:11:00.321Z"
+      }
+    },
+    {
+      "name": "clear",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear",
+      "type": "containerCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {
+        "Tableops": "event_state command_map"
+      }
+    },
+    {
+      "name": "panelexec1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear/panelexec1",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "clear_tables",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear/clear_tables",
+      "type": "buttonCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "out1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear/clear_tables/out1",
+      "type": "outCHOP",
+      "family": "CHOP",
+      "inputs": [
+        "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear/clear_tables/par1"
+      ],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "par1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear/clear_tables/par1",
+      "type": "parameterCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [
+        "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear/clear_tables/out1"
+      ],
+      "customPars": {}
+    },
+    {
+      "name": "text",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear/clear_tables/text",
+      "type": "textCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "parexec1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear/clear_tables/parexec1",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "panelexec1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/clear/clear_tables/panelexec1",
+      "type": "panelexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "outputs",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "default",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/default",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/default/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "release",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/release",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/release/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "long_press",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/long_press",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/long_press/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "short_press",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/short_press",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/short_press/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "double_press",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/double_press",
+      "type": "baseCOMP",
+      "family": "COMP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "trigger1",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/outputs/double_press/trigger1",
+      "type": "triggerCHOP",
+      "family": "CHOP",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_map",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/command_map",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "event_state",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/event_state",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/listener_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "par_callbacks",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/par_callbacks",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "rebuild_outputs",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/rebuild_outputs",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "command_router_ext",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/command_router_ext",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "listener_callbacks",
+      "path": "/project1/mqtt_system/mqtt_event_system/templatesi/listener_template/listener_callbacks",
+      "type": "parameterexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "message_table",
+      "path": "/project1/mqtt_system/mqtt_event_system/message_table",
+      "type": "tableDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "route_message",
+      "path": "/project1/mqtt_system/mqtt_event_system/route_message",
+      "type": "datexecuteDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "script1_callbacks",
+      "path": "/project1/mqtt_system/script1_callbacks",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "check_message_table",
+      "path": "/project1/mqtt_system/check_message_table",
+      "type": "selectDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    },
+    {
+      "name": "check_table_content",
+      "path": "/project1/mqtt_system/check_table_content",
+      "type": "textDAT",
+      "family": "DAT",
+      "inputs": [],
+      "outputs": [],
+      "customPars": {}
+    }
+  ]
+}
