@@ -1,0 +1,25 @@
+name: Release mqtt_system.tox
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare versioned asset
+        run: cp mqtt_system/mqtt_system.tox "mqtt_system-${GITHUB_REF_NAME}.tox"
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: mqtt_system-*.tox
+          generate_release_notes: true
