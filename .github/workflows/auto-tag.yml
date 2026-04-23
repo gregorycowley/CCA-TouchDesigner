@@ -1,0 +1,45 @@
+
+name: Auto Tag
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find latest tag and create next patch tag
+        id: tagger
+        run: |
+          git fetch --tags
+
+          latest_tag=$(git tag --list 'v*' --sort=-version:refname | head -n 1)
+
+          if [ -z "$latest_tag" ]; then
+            next_tag="v1.0.0"
+          else
+            version="${latest_tag#v}"
+            IFS='.' read -r major minor patch <<< "$version"
+            patch=$((patch + 1))
+            next_tag="v${major}.${minor}.${patch}"
+          fi
+
+          echo "next_tag=$next_tag" >> $GITHUB_OUTPUT
+
+      - name: Create and push tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag "${{ steps.tagger.outputs.next_tag }}"
+          git push origin "${{ steps.tagger.outputs.next_tag }}"
