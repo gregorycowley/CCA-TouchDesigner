@@ -1,3 +1,6 @@
 gc-touchdesigner.code-workspace
-.DS_Store
 .github/workflows/release-tox.unused-yaml
+.DS_Store
+**/.DS_Store
+.gitignore
+/Backup
